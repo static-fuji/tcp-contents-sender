@@ -18,7 +18,7 @@ fn main() -> io::Result<()> {
     }
     let filename = &args[1];
 
-    // TCP接続を確立する
+    // TCP接続を確立
     let ip = "localhost"; 
     let port = 8080; 
     let addr = format!("{}:{}", ip, port); // ipアドレスとポート番号を設定
